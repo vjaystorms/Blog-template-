@@ -665,15 +665,15 @@ div.footer>* {
   background-color: rgba(214, 119, 90, 0.8);
 }
 
-.ig {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5em;
+.ig-1,.ig-2 {
+display: flex;
+align-items: center;
 }
 
-div.ig>* {
+div.ig-1>*, div.ig-2>* {
   width: 6em;
   height: 6em;
+  margin: 0.5em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
